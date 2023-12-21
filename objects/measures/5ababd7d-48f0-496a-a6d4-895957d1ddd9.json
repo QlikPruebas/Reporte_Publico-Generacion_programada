@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "5ababd7d-48f0-496a-a6d4-895957d1ddd9",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Generacion PLP",
+    "qDef": "(\r\nSUM(\n          $(=\n              IF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0,\n              vFiltrosPLP,\n              vSinFiltrosPLP\n              )\n          )\n      gen_pot)\n\n/ \n\n$(vEscalaValor)\n)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Generación ('&vEscalaGeneracion&')'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Generacion PLP",
+    "description": "",
+    "tags": []
+  }
+}

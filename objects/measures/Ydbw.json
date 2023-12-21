@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "Ydbw",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "PCP - PID",
+    "qDef": "(\r\n  [Generacion PCP]\n  -\n  [Generacion PID]\n)\n/ \n\n$(vEscalaValor)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Generación ('&vEscalaGeneracion&') - PCP - PID' ",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "PCP - PID",
+    "description": "",
+    "tags": []
+  }
+}

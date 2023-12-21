@@ -3,6 +3,17 @@
 ### 
 Created By facucasla(Facundo) at Thu Dec 21 2023 15:27:00 GMT-0300 (hora estándar de Argentina)
 
+
+
+
+Sheet Title | Description
+------------ | -------------
+Comparación de Generación|
+Generación Programada|
+Comparación de despacho centrales|
+
+
+
 Branch Name|Qlik application
 ---|---
 main|[https://qliksense.coordinador.cl/saml/sense/app/ed81d1fc-5625-4904-b0e6-b637d962ab22](https://qliksense.coordinador.cl/saml/sense/app/ed81d1fc-5625-4904-b0e6-b637d962ab22)
